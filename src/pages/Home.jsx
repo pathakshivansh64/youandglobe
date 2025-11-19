@@ -253,7 +253,7 @@ export default function Home() {
                 <span className="font-bold text-[#52B788]">You & Globe Private Limited</span> is a Bangalore-based healthcare recruitment company dedicated to connecting skilled Indian nurses and healthcare professionals with rewarding opportunities in <span className="font-semibold">Germany, Malta, and Japan</span>.
               </p>
               <p className="text-lg text-white/90 leading-relaxed">
-                We specialize in bridging global healthcare talent gaps by offering flexible and compliant recruitment solutions tailored to the unique needs of hospitals and medical institutions overseas. With access to a database of over <span className="font-semibold text-[#52B788]">100,000 registered medical professionals</span>, we ensure fast, efficient, and quality placements.
+                We specialize in bridging global healthcare talent gaps by offering flexible and compliant recruitment solutions tailored to the unique needs of hospitals and medical institutions overseas. With access to a database of over <span className="font-semibold text-[#52B788]">10,000 registered medical professionals</span>, we ensure fast, efficient, and quality placements.
               </p>
             </div>
           </motion.div>

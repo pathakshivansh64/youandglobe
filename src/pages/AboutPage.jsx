@@ -17,7 +17,7 @@ export default function AboutPage() {
       bio: "Responsible for charting the company's growth trajectory and forging key partnerships.",
     },
     {
-      name: "Ritika Pathak",
+      name: "Shikha Varshney",
       role: "Head of Operations",
       image:
         "/headofoperations.jpg",

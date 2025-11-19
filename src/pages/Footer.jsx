@@ -81,10 +81,12 @@ const Footer = () => {
         >
           <h3 className="text-lg font-semibold text-white mb-4">Follow Us</h3>
           <div className="flex space-x-4">
-            {[FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter].map((Icon, i) => (
+            {[ FaLinkedinIn].map((Icon, i) => (
               <motion.a
                 key={i}
-                href="#"
+                href="https://www.linkedin.com/company/you-and-globe-private-limited/about/?viewAsMember=true"
+                target="_blank"
+  rel="noopener noreferrer"
                 whileHover={{ scale: 1.15, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 200 }}
                 className="bg-white/10 backdrop-blur-sm hover:bg-[#52B788] border border-white/20 p-3 rounded-full text-white transition-all"
