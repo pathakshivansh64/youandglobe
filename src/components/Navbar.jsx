@@ -193,9 +193,9 @@ export default function Navbar() {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "tween" }}
-            className="fixed top-0 right-0 w-72 h-full  shadow-2xl p-6 z-50"
+            className="fixed top-0 right-0 w-72 h-full  shadow-2xl bg-white z-50"
           >
-            <button className="text-3xl mb-6 text-[#0A2463]" onClick={() => setOpen(false)}>
+            <button className="text-3xl mb-6 mt-6 ml-3 text-[#0A2463]" onClick={() => setOpen(false)}>
               <HiX />
             </button>
 
