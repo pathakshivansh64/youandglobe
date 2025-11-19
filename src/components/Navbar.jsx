@@ -193,14 +193,14 @@ export default function Navbar() {
             animate={{ x: 0 }}
             exit={{ x: "100%" }}
             transition={{ type: "tween" }}
-            className="fixed top-0 right-0 w-72 h-full bg-white shadow-2xl p-6 z-50"
+            className="fixed top-0 right-0 w-72 h-full  shadow-2xl p-6 z-50"
           >
             <button className="text-3xl mb-6 text-[#0A2463]" onClick={() => setOpen(false)}>
               <HiX />
             </button>
 
             {/* Links */}
-            <div className="flex flex-col gap-6 text-lg text-gray-700">
+            <div className="flex flex-col gap-6 text-lg p-3 text-gray-700 bg-white">
               <Link to="/" onClick={() => setOpen(false)} className="hover:text-[#3E92CC]">Home</Link>
 
               {/* Mobile Services */}
