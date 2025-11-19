@@ -144,6 +144,9 @@ export default function Navbar() {
                         <Link to="/jobs/japan" className="block px-4 py-2 hover:bg-[#D8F3DC] hover:text-[#0A2463] rounded-md transition">
                           Japan
                         </Link>
+                        <Link to="/jobs/malta" className="block px-4 py-2 hover:bg-[#D8F3DC] hover:text-[#0A2463] rounded-md transition">
+                          Malta
+                        </Link>
                       </motion.div>
                     )}
                   </AnimatePresence>
@@ -233,6 +236,7 @@ export default function Navbar() {
                   <div className="pl-3 flex flex-col gap-2">
                     <Link to="/jobs/germany" onClick={() => setOpen(false)} className="hover:text-[#3E92CC]">Germany</Link>
                     <Link to="/jobs/japan" onClick={() => setOpen(false)} className="hover:text-[#3E92CC]">Japan</Link>
+                    <Link to="/jobs/malta" onClick={() => setOpen(false)} className="hover:text-[#3E92CC]">Malta</Link>
                   </div>
 
                   <p className="font-semibold mt-4 text-[#0A2463]">Role Based</p>

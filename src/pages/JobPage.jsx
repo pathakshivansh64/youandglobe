@@ -105,6 +105,68 @@ const jobsData = {
     image1: "https://tuyendung.namtrieu.com.vn/public/uploads/images/image-20180920112303-3.jpeg",
     image2: "https://hrinternational.in/blog/wp-content/uploads/2025/09/Nursing-Recruitment-Agencies-scaled.jpg"
   },
+   "malta": {
+    title: "Nursing Jobs in Malta",
+    subtitle: "Your Gateway to European Healthcare in the Mediterranean",
+    description: "Malta offers an exceptional blend of Mediterranean lifestyle and European healthcare standards for international nurses. As an English-speaking EU member state with beautiful weather and rich history, Malta provides attractive opportunities for nurses seeking to work in Europe while enjoying a high quality of life in a stunning island setting.",
+    overview: "Malta's healthcare system combines British and European influences, offering familiar practices for English-speaking nurses. The country faces a significant nursing shortage, making it easier for qualified international nurses to secure positions. With its strategic location, Malta serves as an excellent stepping stone for nursing careers throughout Europe, offering EU work rights and a welcoming multicultural environment.",
+    requirements: [
+      "Recognized nursing qualification (BSc or diploma in nursing)",
+      "Minimum 2 years of post-qualification clinical experience",
+      "English language proficiency (native or C1 level)",
+      "Registration with the Council for Nurses and Midwives of Malta",
+      "EU/EEA citizenship or valid work permit",
+      "Criminal conduct certificate and health clearance",
+      "Professional indemnity insurance"
+    ],
+    benefits: [
+      "Competitive salaries ranging from €1,800 to €3,200 per month",
+      "EU work rights and freedom of movement",
+      "English-speaking work environment",
+      "Mediterranean climate with 300+ days of sunshine",
+      "Comprehensive healthcare and social benefits",
+      "Tax advantages and attractive expat packages",
+      "Professional development and EU-recognized certifications",
+      "Low cost of living compared to other EU countries",
+      "Rich cultural heritage and vibrant expat community",
+      "Easy access to travel across Europe and North Africa"
+    ],
+    positions: [
+      {
+        role: "Staff Nurse - General Medicine",
+        salary: "€1,800 - €2,400/month",
+        description: "Provide comprehensive nursing care in medical wards of Malta's main hospitals and healthcare facilities."
+      },
+      {
+        role: "ICU/Critical Care Nurse",
+        salary: "€2,400 - €3,200/month",
+        description: "Specialized critical care in modern intensive care units with advanced life support systems."
+      },
+      {
+        role: "Theatre Nurse",
+        salary: "€2,200 - €2,900/month",
+        description: "Perioperative nursing in surgical theaters, assisting with diverse surgical procedures."
+      },
+      {
+        role: "Community Nurse",
+        salary: "€1,900 - €2,500/month",
+        description: "Home-based nursing care and health promotion in Malta's close-knit communities."
+      },
+      {
+        role: "Elderly Care Nurse",
+        salary: "€1,800 - €2,400/month",
+        description: "Geriatric nursing in residential care homes and specialized elderly care facilities."
+      },
+      {
+        role: "Private Healthcare Nurse",
+        salary: "€2,200 - €3,000/month",
+        description: "Work in Malta's growing private healthcare sector serving international patients and residents."
+      }
+    ],
+    image1: "https://www.manglishworld.com/_next/image?url=%2Fconfident-malta-doctor.jpg&w=3840&q=75",
+    image2: "https://mwtstudyabroad.com/wp-content/uploads/2025/10/nursing-in-malta-for-indian-students-1024x550.webp"
+  },
+  
   
   // Role Based Jobs
   "registered-nurse-(rn)": {

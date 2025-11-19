@@ -407,37 +407,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* TESTIMONIALS */}
-      <section className="bg-white py-20 px-6 md:px-16 overflow-hidden">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-4 text-gray-800">
-            Success Stories
-          </h2>
-          <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
-            Hear from healthcare professionals who have successfully launched their international careers with YOU&GLOBE
-          </p>
-
-          <div className="relative overflow-hidden">
-            <div className="flex gap-8 animate-marquee hover:[animation-play-state:paused]">
-              {[...testimonials, ...testimonials].map((t, i) => (
-                <div
-                  key={i}
-                  className="bg-[#D8F3DC] p-8 rounded-2xl shadow-md min-w-[320px] hover:shadow-lg transition transform hover:-translate-y-1 duration-300 border-t-4 border-[#3E92CC]"
-                >
-                  <img
-                    src={t.img}
-                    alt={t.name}
-                    className="w-20 h-20 rounded-full border-4 border-white mx-auto mb-4 shadow-md object-cover"
-                  />
-                  <p className="italic text-gray-700 mb-4 leading-relaxed">"{t.text}"</p>
-                  <h4 className="font-semibold text-[#3E92CC]">- {t.name}</h4>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
+      
       {/* CTA SECTION */}
       <section className="bg-white py-20 px-6 md:px-16">
         <motion.div

@@ -39,7 +39,7 @@ const servicesData = {
       "Expert guidance throughout the screening process"
     ],
     image1: "https://www.shutterstock.com/image-photo/digital-resume-screening-by-hr-600nw-2603713241.jpg",
-    image2: "https://img.freepik.com/free-vector/flat-hand-drawn-friends-videoconferencing-scenes_52683-57672.jpg?semt=ais_hybrid&w=740&q=80"
+    image2: "https://www.shutterstock.com/image-vector/two-people-evaluating-resume-large-260nw-2613213655.jpg"
   },
   "interview-support": {
     title: "Interview Support",
@@ -300,7 +300,7 @@ export default function ServicePage() {
           <img
             src={serviceData.image1}
             alt={serviceData.title}
-            className="w-full h-96 object-cover rounded-xl shadow-xl"
+            className="w-full h-96 object-contain rounded-xl shadow-xl"
           />
         </motion.div>
 
@@ -351,7 +351,7 @@ export default function ServicePage() {
           <img
             src={serviceData.image2}
             alt="more"
-            className="w-full h-96 object-cover rounded-xl shadow-xl"
+            className="w-full h-96 object-contain rounded-xl shadow-xl"
           />
         </motion.div>
 
