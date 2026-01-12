@@ -200,7 +200,7 @@ export default function Home() {
               <div className="relative">
                 {/* Main Image */}
                 <img
-                  src="https://www.howtobecomejob.com/wp-content/uploads/2021/03/how-to-become-a-travel-nurse-999x640.jpg"
+                  src="/home.jpg"
                   alt="International Nursing Opportunities"
                   className="w-full h-[500px] object-cover rounded-3xl shadow-2xl"
                 />
@@ -409,44 +409,50 @@ export default function Home() {
 
       
       {/* CTA SECTION */}
-      <section className="bg-white py-20 px-6 md:px-16">
-        <motion.div
-          className="max-w-5xl mx-auto"
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.7 }}
-        >
-          <div className="bg-gradient-to-br from-[#D8F3DC] via-white to-[#3E92CC]/10 rounded-3xl p-12 md:p-16 shadow-2xl border-2 border-[#3E92CC]/20 relative overflow-hidden">
-            {/* Decorative Elements */}
-            <div className="absolute top-0 right-0 w-64 h-64 bg-[#3E92CC] rounded-full opacity-10 blur-3xl"></div>
-            <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#52B788] rounded-full opacity-10 blur-3xl"></div>
-            
-            <div className="relative z-10 text-center">
-              <h2 className="text-3xl md:text-5xl font-bold mb-6 text-[#0A2463]">
-                Ready to Start Your Global Healthcare Career?
-              </h2>
-              <p className="text-xl mb-8 text-gray-700 max-w-3xl mx-auto">
-                Join thousands of healthcare professionals who have trusted YOU&GLOBE to achieve their international career dreams
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <Link
-                  to="/contact"
-                  className="bg-[#FB8500] text-white px-10 py-4 rounded-full font-bold hover:bg-[#e67700] transition shadow-lg text-lg"
-                >
-                  Contact Us Today
-                </Link>
-                <Link
-                  to="/services/profile-screening"
-                  className="bg-[#3E92CC] text-white px-10 py-4 rounded-full font-bold hover:bg-[#0A2463] transition shadow-lg text-lg"
-                >
-                  Explore Our Services
-                </Link>
-              </div>
-            </div>
-          </div>
-        </motion.div>
-      </section>
+     <section className="bg-white py-20 px-6 md:px-16">
+  <motion.div
+    className="max-w-5xl mx-auto"
+    initial={{ opacity: 0, y: 30 }}
+    whileInView={{ opacity: 1, y: 0 }}
+    viewport={{ once: true }}
+    transition={{ duration: 0.7 }}
+  >
+    <div className="bg-gradient-to-br from-[#D8F3DC] via-white to-[#3E92CC]/10 rounded-3xl p-12 md:p-16 shadow-2xl border-2 border-[#3E92CC]/20 relative overflow-hidden">
+      {/* Decorative Elements */}
+      <div className="absolute top-0 right-0 w-64 h-64 bg-[#3E92CC] rounded-full opacity-10 blur-3xl"></div>
+      <div className="absolute bottom-0 left-0 w-64 h-64 bg-[#52B788] rounded-full opacity-10 blur-3xl"></div>
+      
+      <div className="relative z-10 text-center">
+        <h2 className="text-3xl md:text-5xl font-bold mb-6 text-[#0A2463]">
+          Ready to Start Your Global Healthcare Career?
+        </h2>
+        <p className="text-xl mb-8 text-gray-700 max-w-3xl mx-auto">
+          Join thousands of healthcare professionals who have trusted YOU&GLOBE to achieve their international career dreams
+        </p>
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <Link
+            to="/contact"
+            className="bg-[#FB8500] text-white px-10 py-4 rounded-full font-bold hover:bg-[#e67700] transition shadow-lg text-lg"
+          >
+            Contact Us Today
+          </Link>
+          <Link
+            to="/services/profile-screening"
+            className="bg-[#3E92CC] text-white px-10 py-4 rounded-full font-bold hover:bg-[#0A2463] transition shadow-lg text-lg"
+          >
+            Explore Our Services
+          </Link>
+          <Link
+            to="/termsandconditions"
+            className="bg-[#52B788] text-white px-10 py-4 rounded-full font-bold hover:bg-[#40916C] transition shadow-lg text-lg"
+          >
+            Our Terms & Conditions 
+          </Link>
+        </div>
+      </div>
+    </div>
+  </motion.div>
+</section>
     </>
   );
 }

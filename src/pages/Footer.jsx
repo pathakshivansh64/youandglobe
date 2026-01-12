@@ -64,7 +64,7 @@ const Footer = () => {
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#52B788] mt-1">📞</span>
-              <span>+91 9258319297</span>
+              <span>+91 9187312091</span>
             </li>
             <li className="flex items-start gap-2">
               <span className="text-[#52B788] mt-1">✉️</span>
@@ -105,7 +105,7 @@ const Footer = () => {
         transition={{ delay: 0.6, duration: 0.6 }}
         className="mt-12 pt-6 text-center text-gray-400 text-sm border-t border-white/10 relative z-10"
       >
-        © {new Date().getFullYear()} YOU&GLOBE. All Rights Reserved.
+        © {new Date().getFullYear()} YOU&GLOBE PVT Ltd.
       </motion.div>
     </footer>
   );

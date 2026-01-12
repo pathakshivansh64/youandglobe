@@ -9,6 +9,7 @@ import About from "./pages/AboutPage";
 import Footer from "./pages/Footer";
 import ServicePage from "./pages/ServicePage";
 import JobPage from "./pages/JobPage";
+import Termsandconditions from "./pages/TermandConditions"
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/about" element={<About />} />
           <Route path="/services/:service" element={<ServicePage />} />
           <Route path="/jobs/:job" element={<JobPage />} />
+          <Route path="/termsandconditions" element={<Termsandconditions/>} />
         </Routes>
       </div>
       <Footer />

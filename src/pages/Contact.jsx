@@ -200,7 +200,7 @@ export default function Contact() {
               </div>
               <h3 className="font-semibold text-[#00356e] mb-2">Call Us</h3>
               <p className="text-gray-600 text-sm">
-                <a href="tel:+919258319297" className="hover:text-[#008092]">+91 9258319297</a>
+                <a href="tel:+919187312091" className="hover:text-[#008092]">+91 9187312091</a>
                 <br/>Mon-Fri, 9AM-6PM IST
               </p>
             </div>
